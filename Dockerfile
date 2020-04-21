@@ -1,4 +1,4 @@
-FROM nginx:alpine
+FROM nginx
 
 COPY default.conf.template /default.conf.template
 COPY entrypoint.sh /entrypoint.sh
